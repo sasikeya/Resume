@@ -104,9 +104,6 @@ body {
 .Skills .row .col-md-4 .Skills-h small {
   font-size: 2rem;
 }
-.container .row .col-md-8 .skills-box {
-  margin-top: 150px;
-}
 .container .row .col-md-8 .skills-box .text-info {
   color: #979899;
   margin-bottom: 12px;
@@ -116,10 +113,10 @@ body {
   background: #404242;
   height: 5px;
 }
-.container .row .col-md-8 .skills {
-  margin-top: 20px;
+.container .row .col-md-8.skills {
+  margin-top: 150px;
 }
-.container .row .col-md-8 .skills .text-info {
+.container .row .col-md-8.skills .text-info {
   color: #979899;
   margin-bottom: 12px;
 }
@@ -188,7 +185,7 @@ body {
 }
 a {
   display: block;
-  font-size: 0.5rem;
+  font-size: 1.0rem;
 }
 .item {
   margin-top: 100px;
