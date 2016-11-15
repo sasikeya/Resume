@@ -80,7 +80,11 @@ body {
   font-size: 2rem;
 }
 .container .row .col-md-8 .section-container {
-  margin-top: 180px;
+  margin-top: 160px;
+  margin-bottom: 90px;
+}
+.container .row .col-md-8 .section-container .resume {
+  margin-right: 50px;
 }
 .container .row .col-md-8 .section-container .resume p {
   margin-left: 100px;
@@ -237,7 +241,7 @@ a {
   font-size: 2rem;
 }
 .over {
-  margin-left: 300px;
+  margin-left: 80px;
   margin-top: 10px;
   color: #979899;
 }
