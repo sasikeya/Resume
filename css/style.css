@@ -1,5 +1,6 @@
 body {
   background: #2b2c2c;
+  overflow-x: hidden;
 }
 .headline {
   padding: 73px 0 110px;
@@ -252,4 +253,38 @@ a {
   margin-left: 80px;
   margin-top: 10px;
   color: #979899;
+}
+@media screen and (max-width: 768px) {
+  .content-info .col-md-3 {
+    padding-bottom: 50px;
+  }
+  .content-info .col-md-3 img {
+    width: 5%;
+    margin: 0;
+    margin-right: 5px;
+  }
+  .re-top {
+    border-top: 2px solid #404242;
+  }
+  .container .row .col-md-4 .Resume-box {
+    margin: 180px 0px;
+  }
+  .container .row .col-md-8 .section-container .resume p {
+    margin: 0 auto;
+  }
+  .Skills .row .col-md-4 .Skills-h {
+    margin: 180px 0px;
+  }
+  .project .row .col-md-4 .projectname {
+    margin: 180px 0px;
+  }
+  .description {
+    margin-top: 10px;
+  }
+  .experience-box {
+    margin: 180px 0px;
+  }
+  .over {
+    margin-left: 0px;
+  }
 }
